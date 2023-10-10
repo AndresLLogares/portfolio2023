@@ -7,7 +7,7 @@ import { ContainerStyled } from "../../styles/container";
 
 export const AboutComponent = () => {
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
   });
   return (
     <ContainerStyled heightsize={null} ref={ref}>

@@ -25,7 +25,7 @@ import {
 
 export const TechnologiesComponent = () => {
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
   });
   return (
     <ContainerStyled heightsize={100} ref={ref}>

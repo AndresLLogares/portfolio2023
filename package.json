@@ -25,6 +25,7 @@
     "react-router-dom": "^6.16.0",
     "react-scroll": "^1.8.9",
     "react-spring": "^9.7.2",
+    "react-tracking": "^9.3.2",
     "react-vertical-timeline-component": "^3.6.0",
     "styled-components": "^6.0.8",
     "typewriter-effect": "^2.20.1"

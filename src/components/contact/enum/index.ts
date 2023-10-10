@@ -1,5 +1,5 @@
 export enum ContactEnum {
-  TitleContact = "You can contact me in the following ways",
+  TitleContact = "Contact Me",
   Resume = "Resume",
   Github = "Github",
   Linkedin = "Linkedin",

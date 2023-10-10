@@ -32,8 +32,13 @@ export const TextLoadingComponent = styled.p`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+
   color: ${colors.black};
   font-family: ${fontFamily.roboto};
   font-size: ${fontSizes.subTitleWeb};
   font-weight: bold;
+  @media (max-width: 1024px) {
+    font-size: ${fontSizes.subTitleMobile};
+  }
 `;

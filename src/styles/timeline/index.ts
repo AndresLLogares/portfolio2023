@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { colors } from "../colors";
 import { fontFamily, fontSizes } from "../fonts";
-import { BoxAnimation, TitleAnimation } from "../animations";
+import { BoxAnimation } from "../animations";
 
 export const ContainerComponentStyled = styled.div`
   display: flex;

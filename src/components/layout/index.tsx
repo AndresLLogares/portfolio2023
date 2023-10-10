@@ -14,7 +14,7 @@ export const LayoutComponent = (props: WrapperProps) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const stars = Array.from({ length: 100 }, (x, i) => <Star key={i} />);
+  const stars = Array.from({ length: 100 }, (_x, i) => <Star key={i} />);
 
   return (
     <LayoutComponentStyled>

@@ -10,7 +10,7 @@ import { ContainerComponentStyled } from "../../styles/timeline";
 
 export const ExperienceComponent = () => {
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
   });
   return (
     <ContainerStyled heightsize={null} ref={ref}>

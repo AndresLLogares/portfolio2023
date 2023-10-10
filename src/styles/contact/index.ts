@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { colors } from "../colors";
 import { fontFamily, fontSizes } from "../fonts";
+import { BoxAnimation } from "../animations";
 
 export const ContainerHistoryText = styled.div`
   display: flex;
@@ -14,6 +15,8 @@ export const ContainerHistoryText = styled.div`
   background-color: ${colors.white};
   border-radius: 5px;
   padding: 25px;
+  animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  ${BoxAnimation}
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   @media (max-width: 1024px) {

@@ -17,14 +17,14 @@ import { IoDocumentTextSharp, IoLogoWhatsapp } from "react-icons/io5";
 import MyResume from "../../assets/Resume.pdf";
 export const ContactComponent = () => {
   const [ref, inView] = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
   });
   return (
     <ContainerPatternStyled heightsize={150} ref={ref}>
       {inView && (
         <>
           <TitleSectionsStyled>
-            <TitleSectionUsedStyled textcolorselected={null}>
+            <TitleSectionUsedStyled textcolorselected={"true"}>
               {ContactEnum.TitleContact}
             </TitleSectionUsedStyled>
           </TitleSectionsStyled>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colors } from "../colors";
 
 export const ContainerStyled = styled.div<{ heightsize: number | null }>`
   display: flex;
@@ -23,7 +24,7 @@ export const ContainerPatternStyled = styled.div<{ heightsize: number | null }>`
   height: fit-content;
   flex-direction: column;
   padding-bottom: 5vh;
-  background-color: #e9e9e9;
+  background-color: ${colors.black};
   background-image: linear-gradient(
       30deg,
       #ff007f 12%,

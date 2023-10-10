@@ -28,6 +28,7 @@ export const LogoStyled = styled.img`
   width: 15vh;
   height: 15vh;
   @media (max-width: 1024px) {
+    margin-bottom: 2vh;
     width: 8vh;
     height: 8vh;
   }
